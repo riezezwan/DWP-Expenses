@@ -68,8 +68,8 @@ export default function Dashboard() {
           </select>
         </div>
         <div className="flex gap-2">
-          <Button onClick={handleExportFilteredPDF} className="bg-red-600 text-white"><FileText className="w-4 h-4" /> Export PDF</Button>
-          <Button onClick={handleExportFiltered} className="bg-green-600 text-white"><FileText className="w-4 h-4" /> Export Excel</Button>
+          <button onClick={handleExportFilteredPDF} className="bg-red-600 text-white p-2 rounded">Export PDF</button>
+          <button onClick={handleExportFiltered} className="bg-green-600 text-white p-2 rounded">Export Excel</button>
         </div>
       </div>
 
